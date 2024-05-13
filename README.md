@@ -4,13 +4,16 @@ Arjav Virani (av3451)
 
 ## Project Description 
 
-The project's primary goal is to refine neural tissue segmentation by optimizing the Segment Anything Model (SAM) into Neuro-SAM and performing a comparative analysis of various image segmentation models on neuron histology datasets. It aims to merge high-performance computing (HPC)
+The project's primary goal is to refine neural tissue segmentation by optimizing the Segment Anything Model (SAM) into Neuro-SAM and performing a comparative analysis of various image segmentation models on neuron histology datasets. It aims to merge high-performance computing (HPC) advancements with precise neurological histology analysis through:
 
-advancements with precise neurological histology analysis through:
 o Fine-Tuning Neuro-SAM: Leveraging high-performance computing techniques to fine-tune Meta’s SAM for enhanced segmentation of axon and myelin in neural tissue images, focusing on increasing segmentation accuracy while optimizing for computational efficiency.
+
 o Comparative Analysis of Segmentation Models: Evaluating a range of image segmentation models, including but not limited to Neuro-SAM, Med-SAM, and U-Net, on their ability to accurately and efficiently process neuron histology images. This involves assessing each model’s performance before and after the application of various optimization techniques such as mixed precision training, distributed training, and model pruning.
+
 o Optimization Benchmarking: Identifying and implementing the most effective HPC and machine learning optimization techniques for each model, with the goal of reducing inference times,enhancing model scalability, and maintaining or improving segmentation accuracy.
+
 o Practical Application and Scalability: Demonstrating the practical applicability of optimized models in real-world neurological research settings, including the potential for real-time analysis and scalability to large datasets commonly found in neuron histology studies.
+
 
 ## Commands to execute the code        
 run below script HPC
