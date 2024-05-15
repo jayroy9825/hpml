@@ -62,3 +62,8 @@ When using 0 workers in the DataLoader, training time is halved when using 2 GPU
 On the other hand, when the number of workers in the DataLoader is not 0, training time for all three models decreases as the number of GPUs increases. This is because the data loading process becomes more efficient with multiple workers, allowing the GPUs to stay fully utilized without waiting for data.
 
 However, it's essential to note that increasing the number of workers in the DataLoader can also increase training time for all three models. This is because each worker process consumes CPU memory and incurs overhead in data loading coordination, which can lead to diminishing returns or even slower training if the number of workers is set too high. Therefore, finding the optimal balance between the number of workers and GPUs is crucial for maximizing training efficiency.
+
+Finetuned Model:- https://drive.google.com/drive/folders/17VlA4KP-mLf-YTg1QIxSa96LEO38vSxt?usp=sharing
+
+## END
+
